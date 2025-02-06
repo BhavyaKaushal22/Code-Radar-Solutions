@@ -7,6 +7,6 @@ int main(){
     }else{
         printf("False\n");
     }
-    return 0:
+    return 0;
 }
 
