@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()[
+int main(){
     int a,b,c;
     scanf("%d\n %d\n %d",&a,&b,&c);
     if(a+b>c && b+c>a && c+a>b){
@@ -9,5 +9,5 @@ int main()[
     }
     return 0;
     
-]
+}
 
