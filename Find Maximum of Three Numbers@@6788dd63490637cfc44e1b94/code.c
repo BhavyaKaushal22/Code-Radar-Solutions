@@ -1,19 +1,14 @@
-#include <stdio.h>
-
-int main() {
-    int num1, num2, num3, max;
-
-    // Taking input
-    scanf("%d %d %d", &num1, &num2, &num3);
-
-    // Finding the maximum number
-    max = (num1 > num2) ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
-
-    // Corrected print statement
-    printf("Numbers: %d, %d, %d\n", num1, num2, num3);
-    printf("Maximum: %d\n", max);
-
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    int max=a;
+    if (b>max){
+        max = b;
+    }
+    if (c>max){
+        max = c;
+    }
+    printf("%d\n",max);
     return 0;
 }
-
-
